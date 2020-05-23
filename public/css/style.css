@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+}
+
+.extramargin50Px{
+  margin-left: 50px;
+}
+
+.navBar{
+position: relative;
+height: 100px;
+background-color: #E5F0FF;
+padding: 0;
+box-shadow: 2px 0 10px grey;
+}
+
+.navh3{
+  position: absolute;
+  left: 50px;
+  bottom: 40px;
+  margin: 0;
+}
+
+.h1Style{
+font-family: 'Open Sans', sans-serif;
+color: #808285;
+font-weight: bold;
+word-spacing: 5px;
+letter-spacing: 2px;
+}
+
+.h3Style{
+  font-family: 'Open Sans', sans-serif;
+  color: #808285;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+
+.pStyle{
+  font-family: 'Open Sans', sans-serif;
+  color: #808285;
+}
+
+ul{
+  position: absolute;
+  right: 50px;
+  bottom: 40px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family:'Open Sans', sans-serif;
+  color: #808285;
+  letter-spacing: 2px;
+}
+
+li{
+    float: left;
+}
+
+li:nth-child(1){
+  padding-right: 20px;
+}
+
+li:nth-child(2){
+  padding-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+color: #00CF91;
+}
+
+.leftMargin{
+  margin-left: 50px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #17F1D7;
+  font-family:'Open Sans', sans-serif;
+  color: #808285;
+  letter-spacing: 2px;
+}
+
+#txtField{
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 10px 0 40px 0;
+  height: 30px;
+  box-shadow: 0 0 3px black;
+}
+
+#txtArea{
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 10px 0 40px 0;
+  box-shadow: 0 0 3px black;
+}
+
+.buttonBlueStyle{
+  background-color: #1488CC;
+  font-family:'Open Sans', sans-serif;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 0 3px black;
+}

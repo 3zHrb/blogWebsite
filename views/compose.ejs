@@ -1,0 +1,12 @@
+<%- include("partials/header"); -%>
+<h1 class="h1Style leftMargin">Compose</h1>
+<form class="leftMargin" action="/compose" method="post">
+<label for="txtField" class="h3Style" style="display: block;">Title</label>
+  <input class="leftMargin" type="text" name="title" id="txtField" required></input>
+  <br>
+  <label class="h3Style" for="txtArea" style="display: block;" >Post</label>
+  <textarea name="contentBody" rows="8" cols="80" id="txtArea"></textarea>
+  <br>
+  <button class="buttonBlueStyle" name="submitButtom">Publish</button>
+  </form>
+<%- include("partials/footer"); -%>

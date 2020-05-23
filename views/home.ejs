@@ -1,0 +1,23 @@
+<%- include("partials/header"); -%>
+
+<% if (post.length === 0){ %>
+  <h1 class="h1Style leftMargin">No Post yet</h1>
+  <p class="pStyle leftMargin">Go to /compose to make a post</p>
+ <% }else{ %>
+
+
+
+
+ <% for(var i = 0; i < post.length ; i++){ %>
+<% var iCounter = i + 1; %>
+<% var contentString =post[i].contentBody %>
+    <h1 class="h1Style leftMargin"><%= iCounter %>. <%= post[i].title %></h1>
+   <p class="pStyle leftMargin"><%= contentString.length < 45 ? contentString : contentString.substr(0,45) + " ..."%> <a class="normalA" href="/post/<%= post[i].title %>">show more</a> </p>
+
+
+ <%}%>
+<% } %>
+
+
+</body>
+<%- include("partials/footer"); -%>
